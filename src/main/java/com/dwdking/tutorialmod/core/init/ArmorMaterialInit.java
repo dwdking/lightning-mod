@@ -14,7 +14,7 @@ public class ArmorMaterialInit {
 
     public final static ArmorMaterial TUTORIAL_ARMOR_MATERIAL = new BaseArmorMaterial(
             99, new int[] {99, 99, 99, 99}, new int[] {99, 99, 99, 99}, 99, 99,
-            MOD_ID + ":tutorial_armor_material", SoundEvents.ARMOR_EQUIP_NETHERITE,
+            MOD_ID + ":tutorial", SoundEvents.ARMOR_EQUIP_NETHERITE,
             () -> Ingredient.of(ItemInit.TUTORIAL_BLOCK_ITEM.get())
     );
 
